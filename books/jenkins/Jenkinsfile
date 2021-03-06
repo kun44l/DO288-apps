@@ -12,8 +12,8 @@ pipeline {
 
     environment {
         //TODO: Edit these vars as per your env
-        DEV_PROJECT = "kjambhor-redhat-com-books-dev"
-        STAGE_PROJECT = "kjambhor-redhat-com-books-stage"
+        DEV_PROJECT = "rhn-gps-kjambhor-dev"
+        STAGE_PROJECT = "rhn-gps-kjambhor-stage"
         APP_GIT_URL = "https://github.com/kun44l/DO288-apps"
         //NEXUS_SERVER = "http://nexus-common.apps.ocp-na2.prod.nextcle.com/repository/nodejs"
 	NEXUS_SERVER = "https://registry.npmjs.org"
